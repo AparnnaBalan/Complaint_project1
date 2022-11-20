@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GuestMaster.master.cs" Inherits="Complaint_project1.Guest.GuestMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="css/mystyle.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body style="background-color: #d5f4e6;">
+    <header id="header">
+        <h1></h1>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="Home.aspx">HOME</a></li>
+            <li><a href="RegUser.aspx">REGISTER</a></li>
+            <li><a href="Login.aspx">LOGIN</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        <asp:ContentPlaceHolder ID="ContentBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="footer">
+        
+    </div>
+</body>
+</html>
